@@ -536,6 +536,7 @@
                                     <workingDirectory>${worker-launcher.build.dir}</workingDirectory>
                                 </configuration>
                             </execution>
+
                             <execution>
                                 <id>test</id>
                                 <phase>test</phase>
@@ -550,6 +551,7 @@
                                     <workingDirectory>${worker-launcher.build.dir}</workingDirectory>
                                 </configuration>
                             </execution>
+
                         </executions>
                     </plugin>
                     <plugin>
